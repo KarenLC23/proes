@@ -1,0 +1,123 @@
+html{
+    font-size: 16px;
+ }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+.centrar{
+    margin-top: 30vh;
+
+
+}
+
+
+.color{
+    background-color:rgba(0, 0, 0, 0.118);
+    border-color: black;
+    color: black;
+}
+
+.centrar2{
+  display: inline-block;
+  background-color: rgb(167, 173, 171);
+  width: 45vw;
+  height: 70vh;
+  overflow: auto;
+}
+.informacion {
+  display: inline-block;
+  background-color: white;
+  width: 60vw;
+  height: 85vh;
+  overflow: auto;
+  margin-left: 88px;
+}
+
+
+
+.contenedor{
+  display: flex;
+  padding: 10px;
+  padding-top: 20px;
+
+
+}
+
+.btn-primary{
+  width: 90%;
+
+}
+
+.contenedor_tabla{
+  width: 35vw;
+}
+
+/* .fondo td.selec:hover{
+  background-color:rgba(44, 122, 211, 0.757);
+} */
+
+.table-hover tbody tr:hover {
+  background-color:rgba(44, 122, 211, 0.757);
+  cursor: pointer;
+}
+
+/* #tabla {
+  /* height: 0px; */
+  /* font-size: 20px; */
+
+  .seleccionado {
+    background-color:rgba(44, 122, 211, 0.757);
+  }
+
+  /* FACTURA */
+
+  /* .v_factura{ */
+    /* width: 50%; */
+    /* display: flex; */
+    /* background-color: blueviolet; */
+    /* flex-wrap: wrap;
+    justify-items: center; */
+    /* justify-content: space-evenly; */
+    /* margin-left: 10px; */
+    
+  /* } */
+  /* .alto{ */
+    /* display: inline-block; */
+    /* height: 30px; */
+  /* } */
+
+  .v_factura{
+  margin-top: 10px;
+
+  }
+  .div1{
+    margin-left: 15px;
+    display: inline-flex;
+    width: 20%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .btn-secondary{
+    background-color: blueviolet;
+  }
+  /* #carga_facturas{
+    height: 280px;
+    overflow: auto;
+  } */
+
+  /* input[type="text"]:required:invalid {
+    border-color: red;
+} */
+
+.oculto {
+  display: none;
+}
+
+.largo_seccion_tabla{
+  height: 265px;
+  overflow: auto;
+}

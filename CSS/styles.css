@@ -1,0 +1,71 @@
+/* :root {
+
+  } */
+ html{
+    font-size: 16px;
+ }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+.login{
+    /* border: thin solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    /* height: 69vh; */
+    margin-top: 16vh;
+}
+
+.img-logo img{
+    width: 150px;
+    height: auto;
+  }
+.img-logo{
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 20px;
+}
+
+.user-pasword label {
+    display: inline-block;
+    width: 110px; /* ajusta el ancho según tus necesidades */
+    /* margin-right: 10px; ajusta el margen según tus necesidades */
+ 
+  }
+  
+  .user-pasword input{
+    display: inline-block;
+    width: 130px; /* ajusta el ancho según tus necesidades */
+    margin-bottom: 10px; /* ajusta el margen según tus necesidades */
+  }
+
+
+  .bt-iniciar{
+    display: block;
+    width: 100px; /* ajusta el ancho según tus necesidades */
+    border: none;
+    background-color: transparent;
+    margin-top: 20px; /* ajusta el margen según tus necesidades */
+    cursor: pointer;
+    border-bottom: black solid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .user-pasword{
+    /* border: thin solid black; */
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+.perfil{
+
+    display: grid;
+    font-size: 17px;
+    padding-left: 16px;
+  }
+
